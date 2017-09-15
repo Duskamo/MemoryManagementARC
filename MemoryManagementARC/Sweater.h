@@ -10,6 +10,7 @@
 #define Sweater_h
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 typedef NS_ENUM(unsigned char, SweaterType) {
     Gray, Blue
@@ -18,6 +19,7 @@ typedef NS_ENUM(unsigned char, SweaterType) {
 @interface Sweater : NSObject
 
 @property (assign) SweaterType type;
+@property (nonatomic,weak) Person *owner;
 
 - (id) initWithSweaterType:(SweaterType)type;
 

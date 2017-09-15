@@ -17,27 +17,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
+    //NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
+    //NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
+    //NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
-    NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
+    //NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
 }
 
 - (void)viewDidDisappear:(BOOL)animated
 {
-    NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
+    //NSLog(@"Second VC: %s method called",__PRETTY_FUNCTION__);
 }
 
 - (void)didReceiveMemoryWarning {

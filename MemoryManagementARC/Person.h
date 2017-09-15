@@ -10,7 +10,8 @@
 #define Person_h
 
 #import <Foundation/Foundation.h>
-#import "Sweater.h"
+
+@class Sweater;
 
 @interface Person : NSObject
 
